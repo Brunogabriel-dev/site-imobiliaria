@@ -207,7 +207,44 @@
 }
 
 /* INFO */
-#info-center {
+#info-content {
     margin-bottom: 4em;
     padding: 4em 1em;
 }
+
+#info-numbers {
+    margin: 1.55em 0;
+}
+
+#info-banner {
+    display: flex;
+    align-items: center;
+    margin-bottom: 2.5em;
+}
+
+#info-numbers h3 {
+    font-size: 3em;
+}
+ @media(min-width: 768) {
+   #info-content {
+    padding: 3.5em;
+   }
+ }
+
+ /* FOOTER TOP */
+ #footer {
+    padding: 3em 2em;
+ }
+
+ #footer-top {
+   margin-bottom: 2em; 
+ }
+
+ #footer-top,
+ #foooter-top i {
+     color: #fff;
+ }
+
+ #social-icons {
+     text-align: right;
+ }
